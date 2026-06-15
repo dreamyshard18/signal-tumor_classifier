@@ -1,12 +1,12 @@
 # 🧠 Brain Tumor MRI Classifier
 
-A deep learning-based web application that classifies brain MRI images into tumor categories using an EfficientNetB0 model.
+A mini deep learning-based web application that classifies brain MRI images into tumor categories using an EfficientNetB0 model.
 
 ---
 
 ## 🚀 Overview
 
-This project uses transfer learning with EfficientNetB0 to classify brain MRI scans into four categories:
+This microproject uses transfer learning with EfficientNetB0 to classify brain MRI scans into four categories:
 
 * Glioma Tumor
 * Meningioma Tumor
@@ -32,7 +32,7 @@ The model is deployed through a simple Flask web application with an interactive
 
 * Base Model: EfficientNetB0 (pretrained on ImageNet)
 * Input Size: 224 × 224
-* Transfer Learning + Fine-tuning
+* Transfer Learning
 * Loss Function: Sparse Categorical Crossentropy
 * Optimizer: Adam
 
